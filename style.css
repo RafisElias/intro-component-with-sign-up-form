@@ -269,9 +269,14 @@ form {
   color: var(--cls-neutral-200);
 }
 
-.terms span {
+.terms a {
   font-weight: var(--fw-600);
-  color: var(--cls-red)
+  color: var(--cls-red);
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
 }
 
 footer {
